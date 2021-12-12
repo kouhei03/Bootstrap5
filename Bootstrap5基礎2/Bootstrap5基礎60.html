@@ -1,0 +1,27 @@
+<!--アクティブ/無効ボタン
+ボタンは、アクティブ（押されたように見える）または無効（クリックできない）状態に設定できます。
+クラス.activeはボタンが押されたように見せ、disabled属性はボタンを
+クリックできないようにします。<a>要素はdisabled属性をサポートしていないため、.
+disabledクラスを使用して視覚的に無効に見えるようにする必要があることに注意してください。
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="container mt-3">
+  <h2>Button States</h2>
+  <button type="button" class="btn btn-primary">Primary Button</button>
+  <button type="button" class="btn btn-primary active">Active Primary</button>
+  <button type="button" class="btn btn-primary" disabled>Disabled Primary</button>
+  <a href="#" class="btn btn-primary disabled">Disabled Link</a>
+</div>
+
+</body>
+</html>
