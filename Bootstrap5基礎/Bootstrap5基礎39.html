@@ -1,4 +1,6 @@
-
+<!--ボーダレステーブル
+.table-borderlessクラスは、テーブルからの境界線を削除します。
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,10 +13,34 @@
 <body>
 
 <div class="container mt-3">
-  <h2>Aligning images</h2>
-  <p>Use the float classes to float the image to the left or to the right:</p> 
-  <img src="mouse.jpg" class="float-start" alt="Paris" width="304" height="236"> 
-  <img src="town.jpg" class="float-end" alt="Paris" width="304" height="236"> 
+  <h2>Borderless Table</h2>
+  <p>The .table-borderless class removes borders from the table:</p>            
+  <table class="table table-borderless">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 </body>
